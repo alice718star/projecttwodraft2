@@ -45,6 +45,7 @@ li a{
 
 .row, .col-md-4, .col-md-8{
     padding: 1%;
+    border: 1px solid white;
 }
 
 #home h2, #menu2 h2, #menu3 h2{
@@ -73,6 +74,16 @@ li a{
     font-size: 24px;
 }
 
+/*this was added for the row*/
+.hg{
+    margin-top: 50px;
+}
+
+.pt{
+    margin-top: 150px;
+}
+
+
 .row h3{
     font-weight: bolder;
     font-size: 28px;
@@ -81,6 +92,10 @@ li a{
 
 .row p{
     font-size: 18px;
+}
+
+.col-md-12 tab-content>row{
+    padding-top: 50px;
 }
 
 .mockingjaydescription, .hungergamesdescription, .yearjungledescription{
@@ -131,7 +146,7 @@ li a{
 
 @media screen and (max-width: 375px){
     .container h1{
-        font-size: 70px;
+        font-size: 60px;
     }
     .col-md-4{
         display: flex;
